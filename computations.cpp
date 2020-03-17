@@ -1,11 +1,12 @@
 #include <iostream>
+#include <vector>
 
 namespace matrcomp
 {
 	class Vector
 	{
 	public:
-		int x[];
+		std::vector<int> x;
 
 		Vector(int elements[]) {
 			x = elements;
@@ -16,5 +17,5 @@ namespace matrcomp
 int main()
 {
 	matrcomp::Vector v({ 1, 2, 3});
-	std::cout << v << std::endl;
+	std::cout << v[0] << std::endl;
 }
