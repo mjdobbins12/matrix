@@ -370,3 +370,13 @@ something's wrong: no file:///c%3A/Users/onefi/source/repos/matrix/matrcomp/src/
 something's wrong: no file:///c%3A/Users/onefi/source/repos/matrix/matrcomp/src/Main.scala in Vector[Int]RangePosition(file:///c%3A/Users/onefi/source/repos/matrix/matrcomp/src/Main.scala, 52, 52, 63)
 something's wrong: no file:///c%3A/Users/onefi/source/repos/matrix/matrcomp/src/Main.scala in Vector[<error>]RangePosition(file:///c%3A/Users/onefi/source/repos/matrix/matrcomp/src/Main.scala, 90, 90, 117)
 something's wrong: no file:///c%3A/Users/onefi/source/repos/matrix/matrcomp/src/Main.scala in Vector[<error>]RangePosition(file:///c%3A/Users/onefi/source/repos/matrix/matrcomp/src/Main.scala, 90, 90, 106)
+Mar 19, 2020 9:32:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 945
+Mar 19, 2020 9:32:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 947
+WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala
+WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala
+WARN  code navigation does not work for the file 'C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala' because it doesn't belong to a build target.
+WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala
+WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala
