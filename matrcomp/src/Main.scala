@@ -1,9 +1,13 @@
 package matrcomp
 
-object VecMeth {
-    implicit class VectorMethods(x: Vector[Int]) {
-        def +(y: Vector[Int]) = {
+object VectorMethods {
+    implicit class VecMeth(x: Vector[Int]) {
+        def +(y: Vector[Int]): Vector[Int] = {
             (x, y).zipped.map(_ + _)
+        }
+
+        def *(a: Int): Vector[Int] = {
+            x.map(_ * a)
         }
 
         def dotProduct(y: Vector[Int]): Int = {
@@ -11,17 +15,17 @@ object VecMeth {
             elements.map(el => el._1 * el._2).fold(0)(_ + _)
         }
 
-        def saxpy(scalar: Int, y: Vector[Int]): Vector[Int] = {
+        def saxpy(a: Int, y: Vector[Int]): Vector[Int] = {
             ???
         }
     }
 }
 
 object Main extends App {
-    import VecMeth._
+    import VectorMethods._
     val m = Vector(1, 2, 3)
     val n = Vector(4, 5, 6)
-    val res = m + n
+    val res = m * 3
 
     println(res)
 }
