@@ -16,7 +16,7 @@ object VectorMethods {
         }
 
         def saxpy(a: Int, y: Vector[Int]): Vector[Int] = {
-            ???
+            y * a + x
         }
     }
 }
@@ -25,7 +25,7 @@ object Main extends App {
     import VectorMethods._
     val m = Vector(1, 2, 3)
     val n = Vector(4, 5, 6)
-    val res = m * 3
+    val res = m.saxpy(3, n)
 
     println(res)
 }

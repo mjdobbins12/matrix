@@ -423,3 +423,13 @@ WARN  code navigation does not work for the file 'C:\Users\onefi\source\repos\ma
 WARN  code navigation does not work for the file 'C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala' because it doesn't belong to a build target.
 WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala
 WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala
+WARN  code navigation does not work for the file 'C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala' because it doesn't belong to a build target.
+something's wrong: no file:///c%3A/Users/onefi/source/repos/matrix/matrcomp/src/Main.scala in Vector[Int]RangePosition(file:///c%3A/Users/onefi/source/repos/matrix/matrcomp/src/Main.scala, 110, 110, 121)
+WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala
+WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala
+something's wrong: no file:///c%3A/Users/onefi/source/repos/matrix/matrcomp/src/Main.scala in Vector[Int]RangePosition(file:///c%3A/Users/onefi/source/repos/matrix/matrcomp/src/Main.scala, 365, 365, 376)
+WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala
+WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala
