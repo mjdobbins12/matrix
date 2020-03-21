@@ -23,20 +23,22 @@ object VectorMethods {
         def saxpy(a: Int, y: Vector[Int]): Vector[Int] = {
             y * a + x
         }
-    }
-}
 
-object MatrixMethods {
-    implicit class MatMeth(m: Vector[Vector[Int]]) {
-        def gaxpy = ???
+        def vectorMultiply(m: Vector[Vector[Int]]): Vector[Int] = {
+            m.map(row => row dotProduct x)
+        }
+
+        // def gaxpy(m: Vector[Vector[Int]], y: Vector[Int]): Vector[Int] = {
+        //     y * m + x
+        // }
     }
 }
 
 object Main extends App {
     import VectorMethods._
-    val m = Vector(1, 2, 3)
-    val n = Vector(4, 5, 6)
-    val res = m hadamard n
+    val m = Vector(Vector(1, 2), Vector(3, 4), Vector(5, 6))
+    val n = Vector(7, 8)
+    val res = n vectorMultiply m
 
     println(res)
 }
