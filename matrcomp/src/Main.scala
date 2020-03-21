@@ -24,21 +24,22 @@ object VectorMethods {
             y * a + x
         }
 
-        def vectorMultiply(m: Vector[Vector[Int]]): Vector[Int] = {
+        def matrixMultiply(m: Vector[Vector[Int]]): Vector[Int] = {
             m.map(row => row dotProduct x)
         }
 
-        // def gaxpy(m: Vector[Vector[Int]], y: Vector[Int]): Vector[Int] = {
-        //     y * m + x
-        // }
+        def gaxpy(m: Vector[Vector[Int]], y: Vector[Int]): Vector[Int] = {
+            (y matrixMultiply m) + x
+        }
     }
 }
 
 object Main extends App {
     import VectorMethods._
     val m = Vector(Vector(1, 2), Vector(3, 4), Vector(5, 6))
-    val n = Vector(7, 8)
-    val res = n vectorMultiply m
+    val x = Vector(1, 1, 1)
+    val y = Vector(7, 8)
+    val res = x.gaxpy(m, y)
 
     println(res)
 }
