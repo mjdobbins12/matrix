@@ -3,40 +3,32 @@ package matrcomp
 object VectorMethods {
     implicit class VecMeth(x: Vector[Int]) {
         
-        def +(y: Vector[Int]): Vector[Int] = {
+        def +(y: Vector[Int]): Vector[Int] =
             (x, y).zipped.map(_ + _)
-        }
 
         // multiplication of a vector by a scalar
-        def *(a: Int): Vector[Int] = {
+        def *(a: Int): Vector[Int] =
             x.map(_ * a)
-        }
 
-        def hadamard(y: Vector[Int]): Vector[Int] = {
+        def hadamard(y: Vector[Int]): Vector[Int] =
             (x, y).zipped.map((xi, yi) => xi * yi)
-        }
 
-        def dotProduct(y: Vector[Int]): Int = {
+        def dotProduct(y: Vector[Int]): Int =
             (x hadamard y).fold(0)(_ + _)
-        }
 
-        def saxpy(a: Int, y: Vector[Int]): Vector[Int] = {
+        def saxpy(a: Int, y: Vector[Int]): Vector[Int] =
             y * a + x
-        }
 
-        def matrixMultiply(m: Vector[Vector[Int]]): Vector[Int] = {
+        def matrixMultiply(m: Vector[Vector[Int]]): Vector[Int] =
             m.map(row => row dotProduct x)
-        }
 
-        def gaxpy(m: Vector[Vector[Int]], y: Vector[Int]): Vector[Int] = {
+        def gaxpy(m: Vector[Vector[Int]], y: Vector[Int]): Vector[Int] =
             (y matrixMultiply m) + x
-        }
     }
 
     implicit class MatrMeth(m: Vector[Vector[Int]]) {
-        def +(n: Vector[Vector[Int]]): Vector[Vector[Int]] = {
+        def +(n: Vector[Vector[Int]]): Vector[Vector[Int]] =
             (m, n).zipped.map(_ + _)
-        }
 
         def *(n: Vector[Vector[Int]]): Vector[Vector[Int]] = ???
     }
