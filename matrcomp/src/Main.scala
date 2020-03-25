@@ -32,14 +32,21 @@ object VectorMethods {
             (y matrixMultiply m) + x
         }
     }
+
+    implicit class MatrMeth(m: Vector[Vector[Int]]) {
+        def +(n: Vector[Vector[Int]]): Vector[Vector[Int]] = {
+            (m, n).zipped.map(_ + _)
+        }
+
+        def *(n: Vector[Vector[Int]]): Vector[Vector[Int]] = ???
+    }
 }
 
 object Main extends App {
     import VectorMethods._
     val m = Vector(Vector(1, 2), Vector(3, 4), Vector(5, 6))
-    val x = Vector(1, 1, 1)
-    val y = Vector(7, 8)
-    val res = x.gaxpy(m, y)
+    val n = Vector(Vector(1, 1), Vector(1, 1), Vector(1, 1))
+    val res = m + n
 
     println(res)
 }

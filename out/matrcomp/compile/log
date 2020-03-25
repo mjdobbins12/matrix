@@ -1,4 +1,4 @@
 [info] Compiling 1 Scala source to C:\Users\onefi\source\repos\matrix\out\matrcomp\compile\dest\classes ...
-[warn] there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+[warn] there were three deprecation warnings (since 2.13.0); re-run with -deprecation for details
 [warn] one warning found
 [info] Done compiling.
