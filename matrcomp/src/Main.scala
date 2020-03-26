@@ -1,6 +1,7 @@
 package matrcomp
 
 object VectorMethods {
+
     implicit class VecMeth(x: Vector[Int]) {
         
         def +(y: Vector[Int]): Vector[Int] =
@@ -27,18 +28,20 @@ object VectorMethods {
     }
 
     implicit class MatrMeth(m: Vector[Vector[Int]]) {
+
         def +(n: Vector[Vector[Int]]): Vector[Vector[Int]] =
             (m, n).zipped.map(_ + _)
 
-        def *(n: Vector[Vector[Int]]): Vector[Vector[Int]] = ???
+        def *(n: Vector[Vector[Int]]): Vector[Vector[Int]] =
+            ???
     }
 }
 
 object Main extends App {
     import VectorMethods._
-    val m = Vector(Vector(1, 2), Vector(3, 4), Vector(5, 6))
-    val n = Vector(Vector(1, 1), Vector(1, 1), Vector(1, 1))
-    val res = m + n
-
+    val m = Vector(Vector(1, 2), Vector(3, 4))
+    val n = Vector(Vector(5, 6), Vector(7, 8))
+    val res = m * n
+    
     println(res)
 }
