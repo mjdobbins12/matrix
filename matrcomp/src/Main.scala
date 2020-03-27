@@ -1,9 +1,7 @@
 package matrcomp
 
 object VectorMethods {
-
     implicit class VecMeth(x: Vector[Int]) {
-        
         def +(y: Vector[Int]): Vector[Int] =
             (x, y).zipped.map(_ + _)
 
@@ -28,12 +26,11 @@ object VectorMethods {
     }
 
     implicit class MatrMeth(m: Vector[Vector[Int]]) {
-
         def +(n: Vector[Vector[Int]]): Vector[Vector[Int]] =
             (m, n).zipped.map(_ + _)
 
         def *(n: Vector[Vector[Int]]): Vector[Vector[Int]] =
-            ???
+            m.map(row => n.transpose.map(_ dotProduct row))
     }
 }
 

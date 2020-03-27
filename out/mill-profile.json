@@ -1,17 +1,17 @@
 [
     {
         "label": "matrcomp.mainClass",
-        "millis": 1,
-        "cached": true
-    },
-    {
-        "label": "mill.scalalib.ZincWorkerModule.compilerInterfaceClasspath",
         "millis": 2,
         "cached": true
     },
     {
+        "label": "mill.scalalib.ZincWorkerModule.compilerInterfaceClasspath",
+        "millis": 5,
+        "cached": true
+    },
+    {
         "label": "mill.scalalib.ZincWorkerModule.classpath",
-        "millis": 4,
+        "millis": 13,
         "cached": true
     },
     {
@@ -31,22 +31,22 @@
     },
     {
         "label": "matrcomp.sources",
-        "millis": 20,
+        "millis": 24,
         "cached": false
     },
     {
         "label": "matrcomp.generatedSources",
-        "millis": 2,
+        "millis": 1,
         "cached": true
     },
     {
         "label": "matrcomp.allSources",
-        "millis": 19,
+        "millis": 25,
         "cached": false
     },
     {
         "label": "matrcomp.allSourceFiles",
-        "millis": 19,
+        "millis": 29,
         "cached": false
     },
     {
@@ -56,12 +56,12 @@
     },
     {
         "label": "matrcomp.resources",
-        "millis": 18,
+        "millis": 27,
         "cached": false
     },
     {
         "label": "matrcomp.unmanagedClasspath",
-        "millis": 1,
+        "millis": 2,
         "cached": true
     },
     {
@@ -71,17 +71,17 @@
     },
     {
         "label": "matrcomp.platformSuffix",
-        "millis": 1,
-        "cached": true
-    },
-    {
-        "label": "matrcomp.compileIvyDeps",
         "millis": 3,
         "cached": true
     },
     {
+        "label": "matrcomp.compileIvyDeps",
+        "millis": 1,
+        "cached": true
+    },
+    {
         "label": "matrcomp.scalaOrganization",
-        "millis": 2,
+        "millis": 1,
         "cached": true
     },
     {
@@ -91,7 +91,7 @@
     },
     {
         "label": "matrcomp.ivyDeps",
-        "millis": 1,
+        "millis": 2,
         "cached": true
     },
     {
@@ -101,7 +101,7 @@
     },
     {
         "label": "matrcomp.compileClasspath",
-        "millis": 1,
+        "millis": 3,
         "cached": true
     },
     {
@@ -111,7 +111,7 @@
     },
     {
         "label": "matrcomp.scalacOptions",
-        "millis": 2,
+        "millis": 1,
         "cached": true
     },
     {
@@ -121,42 +121,42 @@
     },
     {
         "label": "matrcomp.scalacPluginIvyDeps",
-        "millis": 1,
+        "millis": 2,
         "cached": true
     },
     {
         "label": "matrcomp.scalacPluginClasspath",
-        "millis": 1,
+        "millis": 2,
         "cached": true
     },
     {
         "label": "matrcomp.compile",
-        "millis": 1294,
+        "millis": 4977,
         "cached": false
     },
     {
         "label": "matrcomp.finalMainClassOpt",
-        "millis": 43,
+        "millis": 57,
         "cached": false
     },
     {
         "label": "matrcomp.finalMainClass",
-        "millis": 1,
+        "millis": 11,
         "cached": true
     },
     {
         "label": "matrcomp.localClasspath",
-        "millis": 18,
+        "millis": 22,
         "cached": false
     },
     {
         "label": "matrcomp.runIvyDeps",
-        "millis": 1,
+        "millis": 6,
         "cached": true
     },
     {
         "label": "matrcomp.upstreamAssemblyClasspath",
-        "millis": 0,
+        "millis": 12,
         "cached": true
     },
     {
@@ -166,22 +166,22 @@
     },
     {
         "label": "matrcomp.forkArgs",
-        "millis": 1,
-        "cached": true
-    },
-    {
-        "label": "matrcomp.forkEnv",
         "millis": 4,
         "cached": true
     },
     {
+        "label": "matrcomp.forkEnv",
+        "millis": 24,
+        "cached": true
+    },
+    {
         "label": "matrcomp.forkWorkingDir",
-        "millis": 2,
+        "millis": 11,
         "cached": true
     },
     {
         "label": "matrcomp.run",
-        "millis": 593,
+        "millis": 640,
         "cached": false
     }
 ]
