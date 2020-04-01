@@ -722,3 +722,8 @@ INFO  skipping build import with status 'Failed'
 WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala
 INFO  no build target: using presentation compiler with only scala-library
 something's wrong: no file:///c%3A/Users/onefi/source/repos/matrix/matrcomp/src/Main.scala in Vector[Vector[Int]]RangePosition(file:///c%3A/Users/onefi/source/repos/matrix/matrcomp/src/Main.scala, 997, 997, 1016)
+WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala
+WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala
+WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala
+WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala
+INFO  shutting down Metals

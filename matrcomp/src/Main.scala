@@ -15,6 +15,9 @@ object VectorMethods {
         def dotProduct(y: Vector[Int]): Int =
             (x hadamard y).fold(0)(_ + _)
 
+        def outerProduct(y: Vector[Int]): Vector[Vector[Int]] = 
+            x.map( i => y * i)
+
         def saxpy(a: Int, y: Vector[Int]): Vector[Int] =
             y * a + x
 
@@ -36,9 +39,9 @@ object VectorMethods {
 
 object Main extends App {
     import VectorMethods._
-    val m = Vector(Vector(1, 2), Vector(3, 4))
-    val n = Vector(Vector(5, 6), Vector(7, 8))
-    val res = m * n
+    val m = Vector(1, 2, 3)
+    val n = Vector(4, 5)
+    val res = m outerProduct n
     
     println(res)
 }
