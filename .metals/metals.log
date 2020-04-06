@@ -727,3 +727,85 @@ WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.
 WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala
 WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala
 INFO  shutting down Metals
+INFO  started: Metals version 0.8.3 in workspace 'C:\Users\onefi\source\repos\matrix'
+INFO  time: initialize in 2.6s
+INFO  skipping build import with status 'Failed'
+WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala
+INFO  no build target: using presentation compiler with only scala-library
+Apr 01, 2020 8:59:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+Apr 01, 2020 8:59:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18
+Apr 01, 2020 8:59:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19
+Apr 01, 2020 8:59:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 23
+Apr 01, 2020 8:59:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 26
+something's wrong: no file:///c%3A/Users/onefi/source/repos/matrix/matrcomp/src/Main.scala in Vector[<error>]RangePosition(file:///c%3A/Users/onefi/source/repos/matrix/matrcomp/src/Main.scala, 520, 520, 529)
+something's wrong: no file:///c%3A/Users/onefi/source/repos/matrix/matrcomp/src/Main.scala in Vector[Int]RangePosition(file:///c%3A/Users/onefi/source/repos/matrix/matrcomp/src/Main.scala, 520, 520, 531)
+WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala
+WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala
+INFO  shutting down Metals
+INFO  started: Metals version 0.8.3 in workspace 'C:\Users\onefi\source\repos\matrix'
+INFO  time: initialize in 3.17s
+INFO  skipping build import with status 'Failed'
+WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala
+INFO  shutting down Metals
+INFO  started: Metals version 0.8.3 in workspace 'C:\Users\onefi\source\repos\matrix'
+INFO  time: initialize in 2.59s
+INFO  skipping build import with status 'Failed'
+WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala
+INFO  no build target: using presentation compiler with only scala-library
+Apr 03, 2020 6:43:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+INFO  shutting down Metals
+INFO  started: Metals version 0.8.3 in workspace 'C:\Users\onefi\source\repos\matrix'
+INFO  time: initialize in 3.03s
+INFO  skipping build import with status 'Failed'
+WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala
+INFO  shutting down Metals
+INFO  started: Metals version 0.8.3 in workspace 'C:\Users\onefi\source\repos\matrix'
+INFO  time: initialize in 3.49s
+INFO  skipping build import with status 'Failed'
+WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala
+INFO  no build target: using presentation compiler with only scala-library
+Apr 06, 2020 9:37:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16
+Apr 06, 2020 9:37:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+Apr 06, 2020 9:37:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18
+Apr 06, 2020 9:37:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20
+Apr 06, 2020 9:37:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 22
+Apr 06, 2020 9:37:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21
+Apr 06, 2020 9:37:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 24
+Apr 06, 2020 9:37:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 25
+Apr 06, 2020 9:37:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27
+Apr 06, 2020 9:37:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 26
+WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala
+WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala
+WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala
+WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala
+something's wrong: no file:///c%3A/Users/onefi/source/repos/matrix/matrcomp/src/Main.scala in Vector[Int]RangePosition(file:///c%3A/Users/onefi/source/repos/matrix/matrcomp/src/Main.scala, 1089, 1089, 1100)
+WARN  code navigation does not work for the file 'C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala' because it doesn't belong to a build target.
+WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala
+something's wrong: no file:///c%3A/Users/onefi/source/repos/matrix/matrcomp/src/Main.scala in Vector[Vector[Int]]RangePosition(file:///c%3A/Users/onefi/source/repos/matrix/matrcomp/src/Main.scala, 980, 980, 999)
+WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala
+WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala
+WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala
+WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala
+WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala
+WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala
+WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala
+WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala
+WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala
+WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala

@@ -16,7 +16,7 @@ object VectorMethods {
             (x hadamard y).fold(0)(_ + _)
 
         def outerProduct(y: Vector[Int]): Vector[Vector[Int]] = 
-            x.map( i => y * i)
+            x.map(i => y * i)
 
         def saxpy(a: Int, y: Vector[Int]): Vector[Int] =
             y * a + x
@@ -34,14 +34,25 @@ object VectorMethods {
 
         def *(n: Vector[Vector[Int]]): Vector[Vector[Int]] =
             m.map(row => n.transpose.map(_ dotProduct row))
+
+        def isDiagonal: Boolean = {
+            var res = true
+            for (i <- 0 until m.size; j <- 0 until m.size) {
+                if ((m(i)(j) == 0) && i == j) {
+                    res = false
+                } else if ((m(i)(j) != 0) && i != j) {
+                    res = false
+                }
+            }
+            res
+        }
     }
 }
 
 object Main extends App {
     import VectorMethods._
-    val m = Vector(1, 2, 3)
-    val n = Vector(4, 5)
-    val res = m outerProduct n
+    val m = Vector(Vector(1, 0, 0), Vector(0, 1, 0), Vector(0, 0, 1))
+    val res = m.isDiagonal
     
     println(res)
 }
