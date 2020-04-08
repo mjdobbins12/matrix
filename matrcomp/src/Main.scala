@@ -46,13 +46,16 @@ object VectorMethods {
             }
             res
         }
+
+        def isSymmetrical: Boolean =
+            m == m.transpose
     }
 }
 
 object Main extends App {
     import VectorMethods._
-    val m = Vector(Vector(1, 0, 0), Vector(0, 1, 0), Vector(0, 0, 1))
-    val res = m.isDiagonal
+    val m = Vector(Vector(1, 2, 3), Vector(2, 4, 5), Vector(3, 5, 6))
+    val res = m.isSymmetrical
     
     println(res)
 }
