@@ -35,6 +35,8 @@ object VectorMethods {
         def *(n: Vector[Vector[Int]]): Vector[Vector[Int]] =
             m.map(row => n.transpose.map(_ dotProduct row))
 
+        def isSquare: Boolean = m.size == m(0).size
+
         def isDiagonal: Boolean = {
             var res = true
             for (i <- 0 until m.size; j <- 0 until m.size) {
@@ -54,8 +56,8 @@ object VectorMethods {
 
 object Main extends App {
     import VectorMethods._
-    val m = Vector(Vector(1, 2, 3), Vector(2, 4, 5), Vector(3, 5, 6))
-    val res = m.isSymmetrical
+    val m = Vector(Vector(1, 2, 3), Vector(2, 4, 5), Vector(3, 5, 6), Vector(3, 5, 6))
+    val res = m.isSquare
     
     println(res)
 }

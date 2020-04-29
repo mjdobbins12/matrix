@@ -813,3 +813,29 @@ WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.
 WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala
 WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala
 INFO  shutting down Metals
+INFO  started: Metals version 0.8.3 in workspace 'C:\Users\onefi\source\repos\matrix'
+INFO  time: initialize in 4.43s
+INFO  skipping build import with status 'Failed'
+WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala
+WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala
+WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala
+WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala
+INFO  shutting down Metals
+INFO  started: Metals version 0.8.4 in workspace 'C:\Users\onefi\source\repos\matrix'
+INFO  time: initialize in 2.5s
+INFO  skipping build import with status 'Failed'
+WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala
+INFO  shutting down Metals
+INFO  started: Metals version 0.8.4 in workspace 'C:\Users\onefi\source\repos\matrix'
+INFO  time: initialize in 2.4s
+INFO  skipping build import with status 'Failed'
+WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala
+Apr 22, 2020 11:24:20 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+INFO  shutting down Metals
+INFO  started: Metals version 0.8.4 in workspace 'C:\Users\onefi\source\repos\matrix'
+INFO  time: initialize in 3.17s
+INFO  skipping build import with status 'Failed'
+WARN  no build target for: C:\Users\onefi\source\repos\matrix\matrcomp\src\Main.scala
